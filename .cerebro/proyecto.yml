@@ -1,0 +1,23 @@
+id_proyecto: demo2
+nombre: Proyecto Demo2 Cerebro
+
+stack:
+  - laravel
+  - filament
+  - mysql
+
+ruta_documentacion: docs
+
+incluir:
+  - docs/**/*.md
+  - app/**/*.php
+  - routes/**/*.php
+  - database/migrations/**/*.php
+  - tests/**/*.php
+
+excluir:
+  - vendor/**
+  - node_modules/**
+  - storage/**
+  - bootstrap/cache/**
+  - .env
